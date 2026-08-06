@@ -1,0 +1,82 @@
+/* Hotel Vaishali - Modern + Luxury + Cozy theme
+   Palette: White + Sea Blue / Dark Blue */
+
+:root {
+  --white: #ffffff;
+  --off-white: #f7f9fb;
+  --sea-blue: #1c6ea4;
+  --dark-blue: #0b2545;
+  --dark-blue-2: #13315c;
+  --accent: #2e86ab;
+  --text-dark: #1a1a1a;
+  --text-muted: #5a6b7a;
+  --radius: 10px;
+  --shadow: 0 4px 16px rgba(11, 37, 69, 0.08);
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Segoe UI', Helvetica, Arial, sans-serif; color: var(--text-dark); background: var(--white); line-height: 1.6; }
+img { max-width: 100%; display: block; }
+a { color: var(--sea-blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header { background: var(--dark-blue); color: var(--white); position: sticky; top: 0; z-index: 100; box-shadow: var(--shadow); }
+.header-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; }
+.logo { display: flex; align-items: center; gap: 10px; color: var(--white); font-size: 1.3rem; font-weight: 700; }
+.logo img { height: 40px; width: auto; }
+.main-nav ul { display: flex; align-items: center; gap: 22px; list-style: none; margin: 0; padding: 0; }
+.main-nav a { color: var(--white); font-weight: 500; opacity: 0.9; }
+.main-nav a:hover { opacity: 1; text-decoration: none; border-bottom: 2px solid var(--sea-blue); }
+.nav-cta { background: var(--sea-blue); padding: 8px 16px; border-radius: var(--radius); }
+.nav-cta:hover { background: var(--accent); border-bottom: none !important; }
+.nav-toggle { display: none; background: none; border: none; color: var(--white); font-size: 1.5rem; cursor: pointer; }
+
+.hero { background: linear-gradient(135deg, var(--dark-blue) 0%, var(--sea-blue) 100%); color: var(--white); padding: 90px 20px; text-align: center; }
+.hero-inner { max-width: 700px; margin: 0 auto; }
+.hero h1 { font-size: 2.6rem; margin-bottom: 8px; }
+.hero .subtitle { font-size: 1.2rem; opacity: 0.9; margin-bottom: 18px; }
+.hero-desc { margin-bottom: 28px; opacity: 0.85; }
+
+.btn { display: inline-block; padding: 12px 26px; border-radius: var(--radius); font-weight: 600; text-decoration: none; }
+.btn-primary { background: var(--white); color: var(--dark-blue); }
+.btn-primary:hover { background: var(--off-white); text-decoration: none; }
+
+.highlights { max-width: 1100px; margin: 0 auto; padding: 60px 20px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.highlight-card { background: var(--off-white); border-radius: var(--radius); padding: 24px 20px; box-shadow: var(--shadow); }
+.highlight-card h3 { color: var(--dark-blue); margin-top: 0; }
+.highlight-card p { color: var(--text-muted); font-size: 0.95rem; }
+
+.cta-strip { background: var(--off-white); text-align: center; padding: 60px 20px; }
+.cta-strip h2 { color: var(--dark-blue); }
+.cta-strip p { color: var(--text-muted); max-width: 500px; margin: 10px auto 24px; }
+
+.page-wrapper { max-width: 900px; margin: 0 auto; padding: 50px 20px; }
+.page-content h2 { color: var(--dark-blue); border-bottom: 3px solid var(--sea-blue); padding-bottom: 8px; display: inline-block; }
+.page-content h3 { color: var(--dark-blue-2); }
+.cta-line { background: var(--off-white); padding: 16px; border-radius: var(--radius); }
+
+.room-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin: 30px 0; }
+.room-card { background: var(--off-white); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+.room-card img { height: 180px; object-fit: cover; width: 100%; background: #dfe7ee; }
+.room-card h3, .room-card p, .room-card ul { padding-left: 18px; padding-right: 18px; }
+.room-card h3 { color: var(--dark-blue); margin-top: 14px; }
+
+.booking-form { display: flex; flex-direction: column; gap: 6px; max-width: 500px; }
+.booking-form label { font-weight: 600; margin-top: 10px; color: var(--dark-blue-2); }
+.booking-form input, .booking-form select, .booking-form textarea { padding: 10px; border: 1px solid #cdd7e1; border-radius: 6px; font-size: 1rem; }
+.booking-form button { margin-top: 20px; background: var(--sea-blue); color: var(--white); border: none; padding: 12px 20px; border-radius: var(--radius); font-weight: 600; cursor: pointer; width: fit-content; }
+.booking-form button:hover { background: var(--accent); }
+.note { font-size: 0.85rem; color: var(--text-muted); }
+
+.map-placeholder { background: var(--off-white); border: 2px dashed #cdd7e1; border-radius: var(--radius); padding: 60px 20px; text-align: center; color: var(--text-muted); }
+
+.site-footer { background: var(--dark-blue); color: var(--white); padding: 40px 20px; margin-top: 40px; }
+.footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; font-size: 0.9rem; opacity: 0.9; }
+
+@media (max-width: 768px) {
+  .main-nav ul { display: none; position: absolute; top: 60px; left: 0; right: 0; background: var(--dark-blue); flex-direction: column; padding: 10px 20px; }
+  .main-nav ul.open { display: flex; }
+  .nav-toggle { display: block; }
+  .highlights { grid-template-columns: 1fr; }
+  .footer-inner { grid-template-columns: 1fr; text-align: center; }
+}

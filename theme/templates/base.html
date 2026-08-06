@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+<link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="{{ SITEURL }}/index.html">
+      <img src="{{ SITEURL }}/images/logo.png" alt="{{ SITENAME }} logo" onerror="this.style.display='none'">
+      <span>{{ SITENAME }}</span>
+    </a>
+    <nav class="main-nav">
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <ul>
+        <li><a href="{{ SITEURL }}/index.html">Home</a></li>
+        <li><a href="{{ SITEURL }}/about.html">About</a></li>
+        <li><a href="{{ SITEURL }}/rooms.html">Rooms</a></li>
+        <li><a href="{{ SITEURL }}/banquets.html">Banquets &amp; Conferences</a></li>
+        <li><a href="{{ SITEURL }}/contact.html">Contact</a></li>
+        <li><a class="nav-cta" href="{{ SITEURL }}/booking.html">Book Now</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>{{ SITENAME }}</strong><br>
+      {{ HOTEL_ADDRESS }}
+    </div>
+    <div>
+      Phone: {{ HOTEL_PHONE }}<br>
+      Email: {{ HOTEL_EMAIL }}
+    </div>
+    <div>
+      &copy; <span id="year"></span> {{ SITENAME }}. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="{{ SITEURL }}/theme/js/main.js"></script>
+</body>
+</html>
