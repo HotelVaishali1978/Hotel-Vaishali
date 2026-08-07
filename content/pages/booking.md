@@ -6,7 +6,7 @@ Template: page
 
 We currently accept booking **inquiries** -- our team will confirm availability and rates and get back to you by phone, email, or WhatsApp. A full online booking system with real-time availability is coming soon.
 
-<form action="https://formspree.io/f/REPLACE_ME" method="POST" class="booking-form">
+<form action="https://formspree.io/f/mppawknb" method="POST" class="booking-form">
   <label for="name">Full Name</label>
   <input type="text" id="name" name="name" required>
 

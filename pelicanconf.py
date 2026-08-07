@@ -22,9 +22,9 @@ DEFAULT_PAGINATION = False
 DISPLAY_PAGES_ON_MENU = False
 
 HOTEL_ADDRESS = 'Near Maher Signal, 480-K, Gole Colony, Nashik, Maharashtra 422002, India'
-HOTEL_PHONE = '+91-XXXXXXXXXX'
-HOTEL_EMAIL = 'info@hotelvaishali.example'
-HOTEL_WHATSAPP = 'https://wa.me/91XXXXXXXXXX'
+HOTEL_PHONE = '+91-9665333115'
+HOTEL_EMAIL = 'hotelvaishalinsk@gmail.com'
+HOTEL_WHATSAPP = 'https://wa.me/919665333115'
 FORMSPREE_ENDPOINT = 'https://formspree.io/f/REPLACE_ME'
 
 RELATIVE_URLS = True
