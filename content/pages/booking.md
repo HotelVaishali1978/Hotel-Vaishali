@@ -25,8 +25,13 @@ Our team will confirm availability and rates and get back to you by **phone, ema
   <label for="room_type">Room Type</label>
   <select id="room_type" name="room_type">
     <option value="Single Occupancy A/C Room">Single Occupancy A/C Room</option>
+    <option value="Single Occupancy A/C Room">Single Occupancy NOn A/C Room</option>
     <option value="Double Occupancy A/C Room">Double Occupancy A/C Room</option>
-    <option value="Family Suite">Family Suite</option>
+    <option value="Double Occupancy A/C Room">Double Occupancy Non A/C Room</option>
+    <option value="Double Occupancy A/C Room">Double Occupancy A/C Room</option>
+    <option value="Double Occupancy A/C Room">Double Occupancy Non A/C Room</option>
+    <option value="Family Suite">Family Suite A/C Room</option>
+    <option value="Family Suite">Family Suite Non A/C Room</option>
     <option value="Not Sure">Not Sure Yet</option>
   </select>
 
