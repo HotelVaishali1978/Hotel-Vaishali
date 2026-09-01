@@ -12,9 +12,9 @@ Our in-house restaurant serves fresh, home-style meals throughout the day, so yo
 
 Hotel Vaishali has built its reputation through 40+ years of serving guests:
 
-- "It's in the centre of Nashik city, very convenient for transportation, and walkable distance to the bus stand and historical places."
-- "Clean room, very good room service, and food available till late night at a reasonable price."
-- "A perfect stay for a budget hotel, suitable for families, and a genuinely good stay for the price."
+- It's in the centre of Nashik city, very convenient for transportation, and walkable distance to the bus stand and historical places.
+- Clean room, very good room service, and food available till late night at a reasonable price.
+- A perfect stay for a budget hotel, suitable for families, and a genuinely good stay for the price.
 
 We're proud that our central location, in-house restaurant, and attentive staff consistently stand out to the guests who matter most **YOU**.
 
