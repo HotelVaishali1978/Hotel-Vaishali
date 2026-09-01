@@ -6,7 +6,6 @@ Template: page
 
 Hotel Vaishali offers well-equipped spaces for corporate meetings, conferences, and celebrations, backed by our in-house catering.
 
-*(TODO: Add real hall names, capacities, seating layouts, and photos.)*
 
 - Conference hall suitable for meetings and corporate training sessions
 - Flexible seating arrangements (boardroom, theatre, classroom style)
