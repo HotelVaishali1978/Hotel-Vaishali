@@ -126,3 +126,60 @@ a:hover { text-decoration: underline; }
 .gallery-grid img:hover {
   transform: scale(1.03);
 }
+
+.feedback-card {
+  background: var(--off-white);
+  border: 1px solid #dfe7ee;
+  border-radius: var(--radius);
+  padding: 30px;
+  margin-top: 20px;
+  box-shadow: var(--shadow);
+}
+.feedback-card p {
+  color: var(--text-muted);
+  margin-top: 0;
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 100%;
+}
+.feedback-form label {
+  font-weight: 600;
+  margin-top: 10px;
+  color: var(--dark-blue-2);
+}
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  padding: 10px;
+  border: 1px solid #cdd7e1;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+.feedback-form button {
+  margin-top: 20px;
+  background: var(--dark-blue);
+  color: var(--white);
+  border: none;
+  padding: 12px 20px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+}
+.feedback-form button:hover {
+  background: var(--dark-blue-2);
+}
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 600px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
