@@ -16,50 +16,56 @@ Near Maher Signal, 480-K, Gole Colony, Nashik, Maharashtra 422002, India
 
 ### Share Your Experience
 
-<div class="feedback-card">
-<p>Your feedback helps us keep improving. Whether it's something you loved or something we could do better, we'd love to hear from you.</p>
+<div style="margin-top:20px; padding-top:20px; border-top:1px solid #e2e8f0;">
+<p style="color:#5a6b7a;">Your feedback helps us keep improving. Whether it's something you loved or something we could do better, we'd love to hear from you.</p>
 
-<form action="https://formspree.io/f/REPLACE_ME_FEEDBACK" method="POST" class="feedback-form">
-  <div class="form-row">
-    <div>
-      <label for="name">Name (optional)</label>
-      <input type="text" id="name" name="name">
-    </div>
-    <div>
-      <label for="stay_dates">Dates of Stay</label>
-      <input type="text" id="stay_dates" name="stay_dates">
-    </div>
-  </div>
+<form action="https://formspree.io/f/REPLACE_ME_FEEDBACK" method="POST">
 
-  <label for="rating">Overall Rating</label>
-  <select id="rating" name="rating">
-    <option value="5">Excellent</option>
-    <option value="4">Very Good</option>
-    <option value="3">Good</option>
-    <option value="2">Fair</option>
-    <option value="1">Needs Improvement</option>
-  </select>
+<div style="margin-bottom:14px;">
+abel style="display:block; font-weight:600; margin-bottom:4px;">Name (optional)</label>
+<input type="text" name="name" style="width:100%; max-width:500px; padding:10px; border:1px solid #cdd7e1; border-radius:6px;">
+</div>
 
-  <label for="loved">What did you enjoy most?</label>
-  <textarea id="loved" name="loved" rows="3"></textarea>
+<div style="margin-bottom:14px;">
+abel style="display:block; font-weight:600; margin-bottom:4px;">Dates of Stay</label>
+<input type="text" name="stay_dates" style="width:100%; max-width:500px; padding:10px; border:1px solid #cdd7e1; border-radius:6px;">
+</div>
 
-  <label for="improve">What could we do better?</label>
-  <textarea id="improve" name="improve" rows="3"></textarea>
+<div style="margin-bottom:14px;">
+abel style="display:block; font-weight:600; margin-bottom:4px;">Overall Rating</label>
+<select name="rating" style="width:100%; max-width:500px; padding:10px; border:1px solid #cdd7e1; border-radius:6px;">
+<option value="5">Excellent</option>
+<option value="4">Very Good</option>
+<option value="3">Good</option>
+<option value="2">Fair</option>
+<option value="1">Needs Improvement</option>
+</select>
+</div>
 
-  <div class="form-row">
-    <div>
-      <label for="contact_ok">May we contact you about this?</label>
-      <select id="contact_ok" name="contact_ok">
-        <option value="No">No, just sharing feedback</option>
-        <option value="Yes">Yes, please reach out</option>
-      </select>
-    </div>
-    <div>
-      <label for="phone">Phone/Email</label>
-      <input type="text" id="phone" name="phone">
-    </div>
-  </div>
+<div style="margin-bottom:14px;">
+abel style="display:block; font-weight:600; margin-bottom:4px;">What did you enjoy most?</label>
+<textarea name="loved" rows="3" style="width:100%; max-width:500px; padding:10px; border:1px solid #cdd7e1; border-radius:6px;"></textarea>
+</div>
 
-  <button type="submit">Send Feedback</button>
+<div style="margin-bottom:14px;">
+abel style="display:block; font-weight:600; margin-bottom:4px;">What could we do better?</label>
+<textarea name="improve" rows="3" style="width:100%; max-width:500px; padding:10px; border:1px solid #cdd7e1; border-radius:6px;"></textarea>
+</div>
+
+<div style="margin-bottom:14px;">
+abel style="display:block; font-weight:600; margin-bottom:4px;">May we contact you about this?</label>
+<select name="contact_ok" style="width:100%; max-width:500px; padding:10px; border:1px solid #cdd7e1; border-radius:6px;">
+<option value="No">No, just sharing feedback</option>
+<option value="Yes">Yes, please reach out</option>
+</select>
+</div>
+
+<div style="margin-bottom:14px;">
+abel style="display:block; font-weight:600; margin-bottom:4px;">Phone/Email</label>
+<input type="text" name="phone" style="width:100%; max-width:500px; padding:10px; border:1px solid #cdd7e1; border-radius:6px;">
+</div>
+
+<button type="submit" style="background:#0b2545; color:#fff; border:none; padding:12px 24px; border-radius:10px; font-weight:600; cursor:pointer;">Send Feedback</button>
+
 </form>
 </div>
