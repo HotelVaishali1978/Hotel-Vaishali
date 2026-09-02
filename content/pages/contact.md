@@ -16,14 +16,20 @@ Near Maher Signal, 480-K, Gole Colony, Nashik, Maharashtra 422002, India
 
 ### Share Your Experience
 
-Your feedback helps us keep improving. Whether it's something you loved or something we could do better, we'd love to hear from you.
+<div class="feedback-card">
+<p>Your feedback helps us keep improving. Whether it's something you loved or something we could do better, we'd love to hear from you.</p>
 
-<form action="https://formspree.io/f/REPLACE_ME_FEEDBACK" method="POST" class="booking-form">
-  <label for="name">Name (optional)</label>
-  <input type="text" id="name" name="name">
-
-  <label for="stay_dates">Dates of Stay</label>
-  <input type="text" id="stay_dates" name="stay_dates">
+<form action="https://formspree.io/f/REPLACE_ME_FEEDBACK" method="POST" class="feedback-form">
+  <div class="form-row">
+    <div>
+      <label for="name">Name (optional)</label>
+      <input type="text" id="name" name="name">
+    </div>
+    <div>
+      <label for="stay_dates">Dates of Stay</label>
+      <input type="text" id="stay_dates" name="stay_dates">
+    </div>
+  </div>
 
   <label for="rating">Overall Rating</label>
   <select id="rating" name="rating">
@@ -40,14 +46,20 @@ Your feedback helps us keep improving. Whether it's something you loved or somet
   <label for="improve">What could we do better?</label>
   <textarea id="improve" name="improve" rows="3"></textarea>
 
-  <label for="contact_ok">May we contact you about this?</label>
-  <select id="contact_ok" name="contact_ok">
-    <option value="No">No, just sharing feedback</option>
-    <option value="Yes">Yes, please reach out</option>
-  </select>
-
-  <label for="phone">Phone/Email (if you selected yes above)</label>
-  <input type="text" id="phone" name="phone">
+  <div class="form-row">
+    <div>
+      <label for="contact_ok">May we contact you about this?</label>
+      <select id="contact_ok" name="contact_ok">
+        <option value="No">No, just sharing feedback</option>
+        <option value="Yes">Yes, please reach out</option>
+      </select>
+    </div>
+    <div>
+      <label for="phone">Phone/Email</label>
+      <input type="text" id="phone" name="phone">
+    </div>
+  </div>
 
   <button type="submit">Send Feedback</button>
 </form>
+</div>
