@@ -8,7 +8,7 @@ Template: page
 Near Maher Signal, 480-K, Gole Colony, Nashik, Maharashtra 422002, India
 
 **Phone:** +91-9665333115
-**Email:** hotelvaishalinsk@gmail.com
+**Email:** hotelvaishalim@gmail.com
 
 ### Find Us
 
