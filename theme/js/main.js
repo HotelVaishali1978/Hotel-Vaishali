@@ -7,3 +7,15 @@ document.addEventListener('DOMContentLoaded', function () {
   var yearSpan = document.getElementById('year');
   if (yearSpan) { yearSpan.textContent = new Date().getFullYear(); }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  var slides = document.querySelectorAll('.hero-slide');
+  if (slides.length > 1) {
+    var current = 0;
+    setInterval(function () {
+      slides[current].classList.remove('active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('active');
+    }, 5000);
+  }
+});
