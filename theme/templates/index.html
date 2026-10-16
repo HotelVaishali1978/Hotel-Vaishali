@@ -2,21 +2,49 @@
 {% block title %}{{ SITENAME }} - {{ SITESUBTITLE }}{% endblock %}
 {% block content %}
 
-<section class="hero">
-  <div class="hero-slideshow">
-    <div class="hero-slide active" style="background-image: url('{{ SITEURL }}/images/hero-1.jpg');"></div>
-    <div class="hero-slide" style="background-image: url('{{ SITEURL }}/images/hero-2.jpg');"></div>
-    <div class="hero-slide" style="background-image: url('{{ SITEURL }}/images/hero-3.png');"></div>
-    <div class="hero-slide" style="background-image: url('{{ SITEURL }}/images/hero-4.png');"></div>
-    <div class="hero-slide" style="background-image: url('{{ SITEURL }}/images/hero-5.png');"></div>
+<section class="hero hero-carousel" aria-label="Hotel Vaishali photo gallery">
+
+  <div class="hero-track" aria-hidden="true">
+    <div class="hero-photo"
+         style="background-image: url('{{ SITEURL }}/images/hero-1.jpg');"></div>
+
+    <div class="hero-photo"
+         style="background-image: url('{{ SITEURL }}/images/hero-2.jpg');"></div>
+
+    <div class="hero-photo"
+         style="background-image: url('{{ SITEURL }}/images/hero-3.jpg');"></div>
+
+    <div class="hero-photo"
+         style="background-image: url('{{ SITEURL }}/images/hero-4.jpg');"></div>
   </div>
-  <div class="hero-overlay"></div>
+
   <div class="hero-inner">
     <h1>{{ SITENAME }}</h1>
     <p class="subtitle">{{ SITESUBTITLE }}</p>
-    <p class="hero-desc">Comfortable rooms, home-style dining, and dependable service in the heart of Nashik. Ideal for business travelers, long-term guests, and families alike.</p>
-    <a class="btn btn-primary" href="{{ SITEURL }}/booking.html">Send a Booking Inquiry</a>
+    <p class="hero-desc">
+      Comfortable rooms, home-style dining, and dependable service
+      in the heart of Nashik. Ideal for business travelers,
+      long-term guests, and families alike.
+    </p>
+    <a class="btn btn-primary" href="{{ SITEURL }}/booking.html">
+      Send a Booking Inquiry
+    </a>
   </div>
+
+  <div class="hero-controls">
+    <button type="button" class="hero-prev" aria-label="Previous photo">
+      &#10094;
+    </button>
+
+    <span class="hero-counter" aria-live="polite" aria-atomic="true">
+      Photo 1 of 4
+    </span>
+
+    <button type="button" class="hero-next" aria-label="Next photo">
+      &#10095;
+    </button>
+  </div>
+
 </section>
 
 <section class="highlights">
