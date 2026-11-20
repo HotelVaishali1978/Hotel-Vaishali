@@ -379,3 +379,32 @@ a:hover { text-decoration: underline; }
     transition: none;
   }
 }
+
+.header-contact {
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+  margin-right: 16px;
+}
+.hc-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,0.55);
+  border-radius: 18px;
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.hc-btn:hover { background: #fff; color: #0b2545; }
+.hc-btn:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+
+@media (max-width: 1100px) {
+  .hc-label { display: none; }
+  .hc-btn { padding: 8px 10px; font-size: 16px; }
+}
+@media (max-width: 700px) {
+  .header-contact { margin: 6px 0 0; width: 100%; justify-content: center; }
+}
