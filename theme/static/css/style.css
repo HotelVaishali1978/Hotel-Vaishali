@@ -380,44 +380,4 @@ a:hover { text-decoration: underline; }
   }
 }
 
-.header-contact {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-left: auto;
-  margin-right: 16px;
-  flex-shrink: 0;
-}
-.header-contact a.hc-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border: 1px solid rgba(255,255,255,0.6);
-  border-radius: 50%;
-  color: #fff;
-  background: transparent;
-  text-decoration: none;
-}
-.header-contact a.hc-btn svg {
-  width: 18px;
-  height: 18px;
-  fill: currentColor;
-}
-.header-contact a.hc-btn:hover {
-  background: #fff;
-  color: #0b2545;
-}
-.header-contact a.hc-btn:focus-visible {
-  outline: 3px solid #fff;
-  outline-offset: 2px;
-}
-
-@media (max-width: 700px) {
-  .header-contact {
-    margin: 6px 0 0;
-    width: 100%;
-    justify-content: center;
-  }
-}
+.brand { flex-shrink: 0; white-space: nowrap; }
