@@ -2,17 +2,26 @@ Title: Contact
 Slug: contact
 Template: page
 
-## Get in Touch
+## We're Here to Help You Plan Your Stay
 
-**Hotel Vaishali**
-Near Maher Signal, 480-K, Gole Colony, Nashik, Maharashtra 422002, India
-
-**Phone:** +91-9665333115
-**Email:** hotelvaishalim@gmail.com
-
-### Find Us
-
-<div class="map-placeholder"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4456.928356809575!2d73.78064877583031!3d20.004653922162493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeba8a6aaaaab%3A0xe5f0b8d50e765285!2sHotel%20Vaishali!5e1!3m2!1sen!2sde!4v1786099242744!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div class="contact-grid">
+<a class="contact-item" href="tel:+919665333115">
+<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+<span>+91-9665333115</span>
+</a>
+<a class="contact-item" href="mailto:hotelvaishalinsk@gmail.com">
+<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5-8-5V6l8 5 8-5z"/></svg>
+<span>hotelvaishalinsk@gmail.com</span>
+</a>
+<a class="contact-item" href="https://wa.me/919665333115" target="_blank" rel="noopener">
+<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.46-.72-1.7-.8-.22-.08-.4-.12-.56.12-.16.25-.64.8-.78.96-.14.16-.28.18-.53.06a6.7 6.7 0 0 1-3.3-2.9c-.25-.43.25-.4.72-1.34.08-.16.04-.3-.02-.42-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42h-.47c-.16 0-.42.06-.64.3-.22.25-.84.82-.84 2s.86 2.3 1 2.48c.12.16 1.7 2.6 4.1 3.64 1.5.65 2.1.7 2.84.58.45-.07 1.46-.6 1.66-1.18.2-.58.2-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/></svg>
+<span>+91-9665333115</span>
+</a>
+<a class="contact-item" href="https://www.google.com/maps/search/?api=1&query=Hotel+Vaishali+Gole+Colony+Nashik" target="_blank" rel="noopener">
+<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+<span>Near Maher Signal, 480-K, Gole Colony, Nashik 422002</span>
+</a>
+</div>
 
 ### Share Your Experience
 
