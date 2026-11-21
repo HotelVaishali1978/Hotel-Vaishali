@@ -11,7 +11,7 @@ Template: page
 </a>
 <a class="contact-item" href="mailto:hotelvaishalim@gmail.com">
 <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5-8-5V6l8 5 8-5z"/></svg>
-<span>hotelvaishalinsk@gmail.com</span>
+<span>hotelvaishalim@gmail.com</span>
 </a>
 <a class="contact-item" href="https://wa.me/919665333115" target="_blank" rel="noopener">
 <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.46-.72-1.7-.8-.22-.08-.4-.12-.56.12-.16.25-.64.8-.78.96-.14.16-.28.18-.53.06a6.7 6.7 0 0 1-3.3-2.9c-.25-.43.25-.4.72-1.34.08-.16.04-.3-.02-.42-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42h-.47c-.16 0-.42.06-.64.3-.22.25-.84.82-.84 2s.86 2.3 1 2.48c.12.16 1.7 2.6 4.1 3.64 1.5.65 2.1.7 2.84.58.45-.07 1.46-.6 1.66-1.18.2-.58.2-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/></svg>
