@@ -27,8 +27,8 @@ While many of our guests travel for business, we are equally suited for families
 
 Staying with us? Here are a few of Nashik's best-loved spots worth exploring during your visit:
 
-- **Sula Vineyards** (~15 km): India's most famous winery. Enjoy a vineyard tour, wine tasting, and sunset views from the terrace restaurant. *(Best time: afternoon; book tastings a day ahead on weekends.)*
-- **Trimbakeshwar Temple** (~28 km): One of the twelve sacred Jyotirlingas, at the source of the Godavari River. A peaceful, early morning visit is recommended to avoid crowds.
-- **Pandavleni Caves** (~8 km): Ancient Buddhist rock-cut caves dating back to 100 BCE, carved into the Trirashmi Hills, a great stop for history lovers.
-- **Panchavati & Ramkund Ghat** (in the city): The historic riverside quarter linked to the Ramayana, home to the holy Ramkund bathing tank and Kalaram Temple.
-- **Anjaneri Hill** (~20 km): Believed birthplace of Lord Hanuman, and a popular short trek with scenic views over the Nashik valley.
+- **Sula Vineyards** (~15 km, about 20-25 min drive): India's most famous winery. Enjoy a vineyard tour, wine tasting, and sunset views from the terrace restaurant. *(Best time: afternoon; book tastings a day ahead on weekends.)*
+- **Trimbakeshwar Temple** (~28 km, about 45-60 min drive): One of the twelve sacred Jyotirlingas, at the source of the Godavari River. A peaceful, early morning visit is recommended to avoid crowds.
+- **Pandavleni Caves** (~8 km, about 20–25 min drive): Ancient Buddhist rock-cut caves dating back to 100 BCE, carved into the Trirashmi Hills, a great stop for history lovers.
+- **Panchavati & Ramkund Ghat** (in the city, about 10-15 min drive): The historic riverside quarter linked to the Ramayana, home to the holy Ramkund bathing tank and Kalaram Temple.
+- **Anjaneri Hill** (~20 km, about 35-40 min drive): Believed birthplace of Lord Hanuman, and a popular short trek with scenic views over the Nashik valley.
