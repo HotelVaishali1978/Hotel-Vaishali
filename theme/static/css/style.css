@@ -382,6 +382,12 @@ a:hover { text-decoration: underline; }
 
 .brand { flex-shrink: 0; white-space: nowrap; }
 
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 24px;
+  margin: 18px 0 24px;
+}
 .contact-grid a.contact-item {
   display: flex;
   align-items: center;
@@ -395,9 +401,16 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
   overflow-wrap: anywhere;
 }
+.contact-grid a.contact-item svg {
+  flex-shrink: 0;
+  color: #1c6ea4;
+}
 .contact-grid a.contact-item:hover {
   background: none;
   color: #1c6ea4;
+}
+@media (max-width: 600px) {
+  .contact-grid { grid-template-columns: 1fr; }
 }
 .contact-map {
   margin: 18px 0 24px;
