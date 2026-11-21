@@ -47,4 +47,3 @@ Choose from our range of rooms, tailored for business, comfort, and family stays
 </div>
 
 <p class="cta-line">For current rates and availability, please <a href="booking.html">send us an inquiry</a>, we'll get back to you promptly.</p>
-<p class="note">*All rates are exclusive of applicable local/government taxes.</p>
